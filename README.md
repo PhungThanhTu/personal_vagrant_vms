@@ -143,9 +143,12 @@ Now open the folder using terminal and run the command: <br>
 
 Waiting for the VM to be created.
 And the VM has been created, enjoy.
+Password is `vagrant` <br>
 ![alt text](assets/image-9.png)
 
 If you want to shut down the VM, run `vagrant halt` on the same folder you created.
+
+If you want to destroy the VM to release disk space, run `vagrant destroy`. Don't worry because you can always create new VM just by running `vagrant up`.
 
 You can access and use the virtual machine using terminal in Windows terminal if you do not want to use the graphic interface of the virtual machine. To do so, open terminal on the folder has your Vagrantfile, then run the command
 `vagrant ssh`
